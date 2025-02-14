@@ -321,18 +321,15 @@
     .product-grid {
       display: grid;
       grid-template-columns: repeat(1, minmax(0, 1fr));
-      /* Default: 1 column for very small screens */
       gap: 20px;
     }
 
-    /* When the screen width is at least 480px, use 2 columns */
     @media (min-width: 390px) {
       .product-grid {
         grid-template-columns: repeat(2, minmax(280px, 1fr));
       }
     }
 
-    /* When the screen width is at least 768px, use 4 columns */
     @media (min-width: 768px) {
       .product-grid {
         grid-template-columns: repeat(4, minmax(280px, 1fr));
