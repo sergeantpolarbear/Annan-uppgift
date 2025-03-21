@@ -32,20 +32,19 @@
         Digital Orbit
       </a>
     </div>
+
     <div class="header-right">
       <div class="header-icons">
         <button id="account-btn">
-          <img
-            src="https://imgs.search.brave.com/jgBRuzkDDq0ogsammPYcZKywjK9OYw5Ni3GZYV0uyYM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWxldmVuZm9ydW0u/Y29tL2RhdGEvYXR0/YWNobWVudHMvMTIz/LzEyMzI0Ny02NzEy/ZDQ5ZmJiYjBjMDM0/OTYzMDE2NWE4MTky/OTA1Ni5qcGc_aGFz/aD1qMnZFd2RDSzNj"
-            alt="Login/Register" />
+          <img src="login image.webp" alt="Login/Register" />
         </button>
+
         <button id="cart-btn">
-          <img
-            src="https://imgs.search.brave.com/yL79oiNXesW8KJTDaC7ULbV9O3ugxVKkkno_wFNTyL4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGlwc2FuZHRyaWNr/cy1ocS5jb20vZWNv/bW1lcmNlL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE3LzA5L2Fk/ZC10by1jYXJ0LWJ1/dHRvbi10dXRvcmlh/bC0xLTEyOC5wbmc"
-            alt="Shopping cart" />
+          <img src="cart image.webp" alt="Shopping cart" />
           <span id="cart-count">0</span>
         </button>
       </div>
+
       <div class="menu-container">
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">
@@ -131,39 +130,47 @@
           <label for="fullName">Full Name</label>
           <input id="fullName" type="text" placeholder="John Doe" required>
         </div>
+
         <div class="form-group">
           <label for="address">Address</label>
           <input id="address" type="text" placeholder="123 Main St" required>
         </div>
+
         <div class="form-row">
           <div class="form-group">
             <label for="city">City</label>
             <input id="city" type="text" placeholder="City" required>
           </div>
+
           <div class="form-group">
             <label for="state">State/Province</label>
             <input id="state" type="text" placeholder="State" required>
           </div>
         </div>
+
         <div class="form-row">
           <div class="form-group">
             <label for="zip">Zip Code</label>
             <input id="zip" type="numeric" inputmode="numeric" placeholder="Zip Code" required>
           </div>
+
           <div class="form-group">
             <label for="country">Country</label>
             <input id="country" type="text" placeholder="Country" required>
           </div>
         </div>
+
         <div class="form-group">
           <label for="cc-number">Card Number</label>
           <input id="cc-number" type="numeric" inputmode="numeric" placeholder="XXXX XXXX XXXX XXXX" required>
         </div>
+
         <div class="form-row">
           <div class="form-group">
             <label for="exp-date">Expiration Date (MM/YY)</label>
             <input id="exp-date" type="month" inputmode="numeric" placeholder="MM/YY" required>
           </div>
+
           <div class="form-group">
             <label for="cvv">CVV</label>
             <input id="cvv" type="numeric" inputmode="numeric" placeholder="CVV" required>
@@ -214,7 +221,7 @@
       <span class="close" data-modal="cart-modal">&times;</span>
       <h2>Shopping Cart</h2>
       <div id="cart-items">
-        
+
         <!-- Cart items injected via JS -->
       </div>
       <button id="checkout-btn" class="btn" style="width:100%; margin-top:10px;">Checkout</button>
